@@ -12,7 +12,7 @@ namespace UnitTest.Data
                        Addresses = GetAddresses(),
                        Company = GetCompany(),
                        CustomerName = "Jack Godwin",
-                       Email = "godwhj@gmail.com"
+                       Email = "g****@gmail.com"
                    };
         }
 
@@ -29,10 +29,10 @@ namespace UnitTest.Data
                                             Zip = m.ZipCode
                                         })
                            .ToArray(),
-                       CompanyName = "Nerdy Dude Designs",
+                       CompanyName = "Fubar Industries",
                        CustomerName = "Jack Godwin",
-                       Email = "godwhj@gmail.com",
-                       Phone = "904.238.1284"
+                       Email = "g****@gmail.com",
+                       Phone = "123.456.7890"
                    };
         }
 
@@ -40,8 +40,8 @@ namespace UnitTest.Data
         {
             return new
                    {
-                       DBA = "Nerdy Dude Designs",
-                       PhoneNumber = "904.238.1284"
+                       DBA = "Foobar",
+                       PhoneNumber = "123.456.7890"
                    };
         }
 
@@ -51,7 +51,7 @@ namespace UnitTest.Data
                          {
                              City = "Orange Park",
                              State = "Florida",
-                             Street1 = "3417 Crane Hill CT.",
+                             Street1 = "1234 Some Road.",
                              Street2 = string.Empty,
                              ZipCode = 32065
                          };
@@ -60,7 +60,7 @@ namespace UnitTest.Data
                          {
                              City = "Jacksonville",
                              State = "Florida",
-                             Street1 = "4600 Touchton Rd.",
+                             Street1 = "1234 Some Lane.",
                              Street2 = "Building 900; 12th Floor",
                              ZipCode = 32256
                          };
